@@ -30,14 +30,14 @@ export function AboutSection() {
         </div>
         <div className="about__division about__division--security">
           <span className="division-logo division-logo--security">
-            <Image src="/media/8.jpeg" alt="Logótipo da INTERNEGO - Divisão de Segurança, Lda." fill sizes="200px" />
+            <Image src="/imagens/logotipos/seguranca.jpg" alt="Logótipo da INTERNEGO - Divisão de Segurança, Lda." fill sizes="200px" />
           </span>
           <span><strong>Segurança</strong><small>Proteção e vigilância</small></span>
           <span className="about__division-number">01</span>
         </div>
         <div className="about__division about__division--waste">
           <span className="division-logo division-logo--waste">
-            <Image src="/media/7.jpeg" alt="Logótipo da INTERNEGO - Gestão de Resíduos e Saneamento Urbano." fill sizes="200px" />
+            <Image src="/imagens/logotipos/residuos.jpg" alt="Logótipo da INTERNEGO - Gestão de Resíduos e Saneamento Urbano." fill sizes="200px" />
           </span>
           <span><strong>Gestão de Resíduos</strong><small>Saneamento urbano</small></span>
           <span className="about__division-number">02</span>

@@ -32,15 +32,16 @@ export function HeroSection() {
       <div className="hero__visual" aria-label="Imagens ilustrativas das duas divisões da INTERNEGO">
         <a className="hero-image hero-image--security" href="#seguranca">
           <Image
-            src="/media/3.jpeg"
-            alt="Imagem ilustrativa de profissionais de segurança presente no material de referência da INTERNEGO."
+            src="/imagens/seguranca-privada/equipa-seguranca.jpg"
+            alt="Equipa fardada da divisão de Segurança Privada da INTERNEGO, em material ilustrativo."
             fill
             sizes="(max-width: 760px) 100vw, (max-width: 1100px) 45vw, 26vw"
+            priority
             className="hero-image__photo hero-image__photo--security"
           />
           <span className="hero-image__shade" />
           <span className="hero-image__division-brand">
-            <Image src="/media/8.jpeg" alt="" fill sizes="150px" />
+            <Image src="/imagens/logotipos/seguranca.jpg" alt="" fill sizes="150px" />
           </span>
           <span className="hero-image__content">
             <span className="hero-image__icon"><ShieldCheck aria-hidden="true" size={19} /></span>
@@ -52,8 +53,8 @@ export function HeroSection() {
 
         <a className="hero-image hero-image--waste" href="#residuos">
           <Image
-            src="/media/1.jpeg"
-            alt="Imagem ilustrativa de um camião de recolha de resíduos presente no material de referência da INTERNEGO."
+            src="/imagens/gestao-residuos/recolha-residuos.jpg"
+            alt="Material ilustrativo da INTERNEGO com camião e profissional de recolha de resíduos."
             fill
             priority
             sizes="(max-width: 760px) 100vw, (max-width: 1100px) 45vw, 26vw"
@@ -61,7 +62,7 @@ export function HeroSection() {
           />
           <span className="hero-image__shade" />
           <span className="hero-image__division-brand">
-            <Image src="/media/7.jpeg" alt="" fill sizes="150px" />
+            <Image src="/imagens/logotipos/residuos.jpg" alt="" fill sizes="150px" />
           </span>
           <span className="hero-image__content">
             <span className="hero-image__icon hero-image__icon--green"><Recycle aria-hidden="true" size={19} /></span>

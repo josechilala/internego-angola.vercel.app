@@ -9,7 +9,7 @@ export function BrandLogo({ className = "", priority = false }: BrandLogoProps) 
   return (
     <span className={`brand-logo ${className}`}>
       <Image
-        src="/media/9.jpeg"
+        src="/imagens/logotipos/internego.jpg"
         alt="INTERNEGO - Prestação de Serviço, Lda."
         fill
         priority={priority}

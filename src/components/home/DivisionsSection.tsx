@@ -16,8 +16,8 @@ export function DivisionsSection() {
       <article className="division-row section-wrap" id="seguranca" aria-labelledby="security-title">
         <Reveal className="division-row__media division-row__media--security">
           <Image
-            src="/media/3.jpeg"
-            alt="Imagem ilustrativa de profissionais fardados incluída no material promocional de referência."
+            src="/imagens/seguranca-privada/videovigilancia.jpg"
+            alt="Câmara de videovigilância no material ilustrativo da divisão de Segurança da INTERNEGO."
             fill
             sizes="(max-width: 760px) 100vw, 50vw"
             className="division-row__photo division-row__photo--security"
@@ -42,8 +42,8 @@ export function DivisionsSection() {
       <article className="division-row division-row--reverse section-wrap" id="residuos" aria-labelledby="waste-title">
         <Reveal className="division-row__media division-row__media--waste">
           <Image
-            src="/media/1.jpeg"
-            alt="Imagem ilustrativa de um camião de resíduos presente no material promocional de referência."
+            src="/imagens/gestao-residuos/equipa-recolha.jpg"
+            alt="Equipa de recolha de resíduos junto de contentores e camião da INTERNEGO."
             fill
             sizes="(max-width: 760px) 100vw, 50vw"
             className="division-row__photo division-row__photo--waste"
