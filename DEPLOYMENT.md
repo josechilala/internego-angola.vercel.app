@@ -18,6 +18,6 @@ Não configure `SUPABASE_SERVICE_ROLE_KEY`: a aplicação não precisa dela. As 
 Vercel deteta Next.js automaticamente; não é necessário gerar saída estática nem configurar GitHub Pages.
 ## Contactos e valida??o
 
-O WhatsApp oficial ? https://wa.me/244942036369; +244 942 036 864 ? apenas telefone. O pedido de or?amento abre uma mensagem pr?-preenchida no WhatsApp. A alternativa por e-mail abre o cliente de correio. Em ambos os casos, o utilizador confirma o envio; n?o h? envio autom?tico.
+O WhatsApp oficial ? https://wa.me/244942036369; +244 963 147 527 ? apenas telefone. O pedido de or?amento abre uma mensagem pr?-preenchida no WhatsApp. A alternativa por e-mail abre o cliente de correio. Em ambos os casos, o utilizador confirma o envio; n?o h? envio autom?tico.
 
 Antes de publicar, execute `npm run lint`, `npm run typecheck`, `npm run build` e `npm audit --omit=dev`. O build precisa de acesso ao Google Fonts e ao Supabase para preparar as p?ginas de projetos.

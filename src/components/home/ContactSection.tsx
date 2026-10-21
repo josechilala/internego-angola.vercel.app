@@ -1,7 +1,7 @@
 import { ArrowRight, Mail, MessageCircle, Phone } from "lucide-react";
 import { Reveal } from "@/components/home/Reveal";
 
-const email = "geral.internego@gmail.com";
+const email = "geral@internego.ao";
 const emailHref = `mailto:${email}?subject=${encodeURIComponent("Pedido de orçamento | INTERNEGO")}`;
 const whatsappHref = `https://wa.me/244942036369?text=${encodeURIComponent("Olá, gostaria de obter um orçamento para os serviços da INTERNEGO.")}`;
 
@@ -25,7 +25,7 @@ export function ContactSection() {
         </div>
         <div className="contact-band__details" aria-label="Contactos da INTERNEGO">
           <a href="tel:+244942036369"><Phone aria-hidden="true" size={17} /><span>+244 942 036 369</span></a>
-          <a href="tel:+244942036864"><Phone aria-hidden="true" size={17} /><span>+244 942 036 864</span></a>
+          <a href="tel:+244963147527"><Phone aria-hidden="true" size={17} /><span>+244 963 147 527</span></a>
           <a href={`mailto:${email}`}><Mail aria-hidden="true" size={17} /><span>{email}</span></a>
           <a href={whatsappHref} target="_blank" rel="noopener noreferrer"><MessageCircle aria-hidden="true" size={17} /><span>WhatsApp: +244 942 036 369</span></a>
         </div>

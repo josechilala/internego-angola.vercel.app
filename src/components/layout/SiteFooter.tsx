@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, Mail, MessageCircle, Phone } from "lucide-react";
 import { BrandLogo } from "@/components/layout/BrandLogo";
 
-const email = "geral.internego@gmail.com";
+const email = "geral@internego.ao";
 const whatsappHref = `https://wa.me/244942036369?text=${encodeURIComponent("Olá, gostaria de mais informações sobre os serviços da INTERNEGO.")}`;
 
 export function SiteFooter() {
@@ -32,7 +32,7 @@ export function SiteFooter() {
           <div className="site-footer__column site-footer__contacts">
             <h2>Contactos</h2>
             <a href="tel:+244942036369"><Phone aria-hidden="true" size={14} /> +244 942 036 369</a>
-            <a href="tel:+244942036864"><Phone aria-hidden="true" size={14} /> +244 942 036 864</a>
+            <a href="tel:+244963147527"><Phone aria-hidden="true" size={14} /> +244 963 147 527</a>
             <a href={whatsappHref} target="_blank" rel="noopener noreferrer"><MessageCircle aria-hidden="true" size={14} /> WhatsApp</a>
             <a href={`mailto:${email}`}><Mail aria-hidden="true" size={14} /> {email}</a>
           </div>
